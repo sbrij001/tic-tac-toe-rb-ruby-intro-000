@@ -103,4 +103,5 @@ end
 
 #------------------------------------------------
 def play(board)
+  allow($stdout).to receive(:puts)
 end
