@@ -102,6 +102,5 @@ def winner(board)
 end
 
 #-------------------------------------------------
-allow($stdout).to receive(:puts)
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
