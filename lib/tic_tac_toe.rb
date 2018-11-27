@@ -104,8 +104,6 @@ end
 #------------------------------------------------
 def play(board)
   input = gets
-  input_to_index(input)
-  position_taken?(board,index)
   turn(board)
   over?(board)
 end
