@@ -78,7 +78,6 @@ def won?(board)
     return false
 end
 
-
 def full?(board)
   board.all? {|ele| ele == "X" || ele == "O"}
 end
@@ -103,3 +102,4 @@ def winner(board)
 end
 
 #-------------------------------------------------
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
