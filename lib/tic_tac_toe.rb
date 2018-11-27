@@ -104,4 +104,5 @@ end
 #------------------------------------------------
 def play(board)
   input = gets
+  over?(board)
 end
