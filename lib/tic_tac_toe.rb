@@ -102,5 +102,5 @@ def winner(board)
 end
 
 #------------------------------------------------
-def play
+def play(board)
 end
